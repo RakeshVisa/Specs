@@ -1,7 +1,7 @@
 {
   "name": "AuthorizeNetAccept",
   "authors": "Authorize.Net",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "summary": "Authorize.Net Accept SDK for iOS",
   "homepage": "https://developer.authorize.net",
   "license": "https://github.com/AuthorizeNet/accept-sdk-ios/blob/master/LICENSE.md",
@@ -14,5 +14,5 @@
   },
   "requires_arc": true,
   "module_name": "AuthorizeNetAccept",
-  "vendored_frameworks": "AcceptSDK-Framework/AcceptSDK.framework"
+  "source_files": "AcceptSDK/**/*.{swift}"
 }
